@@ -1,0 +1,222 @@
+/* this is the master css we will use for styling */
+
+body{
+	margin: 0;
+	padding: 0 0 10px 0;
+	background-color: #557082;
+	color: inherit;
+}
+
+p, ul, li, a, h1, h2, h3, h4, div, form, label, input{
+padding:0;
+margin:0;
+}
+img{
+	margin: 0;
+	border: none;
+	display: block;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+a{
+text-decoration:none;
+outline:0;
+}
+p{
+	color: #333333;
+	background-color: inherit;
+	padding-bottom: 16px;
+}
+/*--------------body-----------------*/
+img.logo{
+	float: left;
+	width: auto;
+	margin-right: 0;
+	margin-top: 30px;
+}
+ul.navlink{
+	float: left;
+	font: normal 16px/110px 'Revalia', cursive;
+	padding-left: 30px;
+	width: auto;
+}
+ul.navlink li{
+float:left;
+width:auto;
+}
+ul.navlink li a{
+	color: #c2c1ba;
+	background-color: inherit;
+	float: left;
+	width: auto;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0;
+}
+ul.navlink li a:hover{
+	color: #c2c1ba;
+	background-color: #3c5b6f;
+	display: block;
+	border-left: 2px solid #93a7b3;
+	border-right: 2px solid #93a7b3;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0;
+}
+ul.navlink li a.active{
+	float: left;
+	color: #93a7b3;
+	background-color: #3c5b6f;
+	display: block;
+	border-left: 2px solid #93a7b3;
+	border-right: 2px solid #93a7b3;
+	width: auto;
+	cursor: text;
+	padding-bottom: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0;
+}
+/*-------------------------body---------------------------*/
+#body{
+	background-color: #f5f5eb;
+}
+.hdrpic{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-image: url(../images/header.png);
+	padding-bottom: 16px;
+}
+/*---left panel---*/
+h1{
+	font-size: 30px;
+	line-height: 30px;
+	color: #970600;
+	background-color: inherit;
+	font-weight: normal;
+	padding-bottom: 17px;
+}
+h1 span{
+display:block;
+font-size:18px;
+line-height:18px;
+color:#000;
+background-color:inherit;
+}
+
+img.pic{
+float:center;
+padding:0 22px 90px 0;
+}
+p.spltxt{
+color:#000;
+background-color:inherit;
+font-size:18px;
+line-height:18px;
+padding-top:14px;
+}
+p.spltxt span{
+color:#970600;
+background-color:inherit;
+}
+p.alquiam span{
+color:#3E5036;
+background-color:inherit;
+}
+a.detail{
+	color: #660000;
+	background-color: inherit;
+}
+a.detail:hover{
+	color: #ff6600;
+	background-color: inherit;
+}
+p.news{
+font-size:18px;
+line-height:18px;
+color:#000;
+background-color:inherit;
+}
+
+/*---right panel---*/
+p.rghttxt{
+padding-bottom:31px;
+}
+p.outpro{
+font-size:18px;
+line-height:18px;
+color:#000;
+background-color:inherit;
+padding-top:18px;
+}
+img.product{
+padding-bottom:31px;
+}
+p.tempor{
+color:#3E5036;
+background-color:inherit;
+}
+p.tempor span{
+	color: #660000;
+	background-color: inherit;
+	display: block;
+}
+/*--------------------------footer---------------------------*/
+#footer{
+	background: url(../images/footer_bg.png) repeat-x 0 0;
+	height: 97px;
+	margin: 0;
+}
+ul.footerlink{
+	margin: 0;
+	font-size: 12px;
+	line-height: 14px;
+	color: #660000;
+	background-color: inherit;
+	padding-bottom: 0;
+	padding-left: 285px;
+	padding-right: 0;
+	padding-top: 20px;
+}
+ul.footerlink li{
+float:left;
+padding:0 4px;
+width:auto;
+}
+ul.footerlink li a{
+	color: #660000;
+	background-color: inherit;
+}
+ul.footerlink li a:hover{
+text-decoration:underline;
+}
+p.copyright{
+	color: #646464;
+	background-color: inherit;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	padding-top: 13px;
+	width: 940px;
+	float: left;
+}
+p.copyright span{
+display:block;
+}
+p.copyright span a{
+color:#3E5036;
+background-color:inherit;
+}
+p.copyright span a:hover{
+text-decoration:underline;
+}

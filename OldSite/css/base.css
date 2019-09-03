@@ -1,0 +1,6 @@
+/* this calls the files for everything. see index.html */
+@import url("reset.css");
+@import url("960.css");
+@import url(http://fonts.googleapis.com/css?family=Revalia|Gruppo|Roboto+Slab:400,300,700);
+@import url("text.css");
+@import url("master.css");
